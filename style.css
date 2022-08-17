@@ -1,0 +1,262 @@
+body {
+    margin: 0px;
+    font-family:cursive;
+    background-color: rgb(250, 250, 250);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 90px;
+}
+
+.home {
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 200px;
+}
+
+.header-icon-container {
+    margin-right: 200px;
+}
+
+.header-icons {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.search-field {
+    text-align: center;
+    background-image: url(img/icons8-suche-30.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 40px;
+}
+
+.contentsite {
+    background-color: rgb(250, 250, 250);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contentsite-background {
+    background-color: rgb(250, 250, 250);
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: rgb(250, 250, 250);
+}
+
+.tagesschow-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-color: rgb(196, 12, 12);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.menu-button {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 50px;
+}
+
+.content-1-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.content-1-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 350px;
+    margin-top: 100px;
+    position: sticky;
+    top: 190px;
+}
+
+.conten-right-side {
+    width: 350px;
+}
+
+.content-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.profile-img-proposals {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.identity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.real-name-and-info {
+    color: gray;
+}
+
+.link-profile {
+    color: blue;
+    cursor: pointer;
+}
+
+.content-2-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-2-menu-1{
+    color: gray;
+    font-size: 20px;
+}
+
+.content-2-info {
+    font-family: system-ui;
+    color: gray;
+    font-size: 14px;
+}
+
+.comment-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.comment-input {
+    border: none;
+    border-top-color: rgb(230, 227, 227);
+    border-top-width: 1px;
+    border-top-style: solid;
+    width: 100%;
+    font-size: 30px;
+    height: 80px;
+}
+
+.comment-input-container {
+    display: flex;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-push-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.send-button{
+    border: none;
+    color: gray;
+    background-color: white;
+    border-top-color: rgb(230, 227, 227);
+    border-top-width: 1px;
+    border-top-style: solid;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.comment-delete{
+    border: none;
+    color: gray;
+    background-color: white;
+    cursor: pointer;
+}
